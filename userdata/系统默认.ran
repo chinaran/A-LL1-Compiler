@@ -1,0 +1,2 @@
+int area, r;
+area = r * (r + r);

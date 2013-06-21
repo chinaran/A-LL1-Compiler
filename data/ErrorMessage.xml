@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<errors>
+	<!-- 词法分析错误 详细信息 -->
+	<errors_lexical_analysis>
+		<error>
+			<code>A0001</code>
+			<error_info>存在非法字符</error_info>
+		</error>
+		<error>
+			<code>A0002</code>
+			<error_info>数据错误</error_info>
+		</error>
+		<error>
+			<code>A0003</code>
+			<error_info>注释不完整，缺少右侧的“*/”与之匹配</error_info>
+		</error>
+		<error>
+			<code>A0004</code>
+			<error_info>注释不完整，缺少左侧的“/*”与之匹配</error_info>
+		</error>
+		<error>
+			<code>A0005</code>
+			<error_info>标识符不能以数字开头</error_info>
+		</error>
+		<error>
+			<code>A0006</code>
+			<error_info>字符常量有误，转义字符(\)后没有正确匹配</error_info>
+		</error>
+		<error>
+			<code>A0007</code>
+			<error_info>字符常量有误，缺少 (')或(‘)或(’) 与之匹配</error_info>
+		</error>
+		<error>
+			<code>A0008</code>
+			<error_info>字符串常量有误，转义字符(\)后没有正确匹配</error_info>
+		</error>
+		<error>
+			<code>A0009</code>
+			<error_info>字符串常量有误，缺少 (")或(“)或(”) 与之匹配</error_info>
+		</error>
+	</errors_lexical_analysis>
+	<!-- 语法分析错误 详细信息 -->
+	<errors_grammar_analysis>
+		<error>
+			<code>B0001</code>
+			<error_info>gra.grammar中，文法规则（定义终极符前）必须以"%%"开头</error_info>
+		</error>
+		<error>
+			<code>B0002</code>
+			<error_info>gra.grammar中，产生式必须以"%%"开头</error_info>
+		</error>
+		<error>
+			<code>B0003</code>
+			<error_info>gra.grammar中，产生式头部必须为非终结符</error_info>
+		</error>
+		<error>
+			<code>B0004</code>
+			<error_info>gra.grammar中，产生式左部和右部必须用':'连接</error_info>
+		</error>
+		<error>
+			<code>B0005</code>
+			<error_info>gra.grammar中，产生式必须以';'结尾</error_info>
+		</error>
+		<error>
+			<code>B0006</code>
+			<error_info>gra.grammar中，产生式空，不能进行文法分析</error_info>
+		</error>
+		<error>
+			<code>B0007</code>
+			<error_info>句子（表达式）必须以';'结尾</error_info>
+		</error>
+ 		<error>
+ 			<code>B0008</code>
+ 			<error_info>句子（表达式）为空！</error_info>
+ 		</error>
+		<error>
+			<code>B0009</code>
+			<error_info>句子（表达式）中缺少当前终结符与文法匹配</error_info>
+		</error>
+		<error>
+			<code>B0010</code>
+			<error_info>句子（表达式）中当前终结符多余</error_info>
+		</error>
+		<error>
+			<code>B0011</code>
+			<error_info>句子（表达式）中当前终结符与文法不匹配</error_info>
+		</error>
+	</errors_grammar_analysis>
+</errors>
